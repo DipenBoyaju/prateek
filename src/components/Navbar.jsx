@@ -9,7 +9,7 @@ const Navbar = () => {
       <Link to={'/about'} className={`${linkStyle}`}>About</Link>
       <Link to={'/'} className={`${linkStyle}`}>Research</Link>
       <Link to={'/team'} className={`${linkStyle}`}>Team</Link>
-      <Link to={'/'} className={`${linkStyle}`}>Project</Link>
+      <Link to={'/project'} className={`${linkStyle}`}>Project</Link>
       <Link to={'/blog'} className={`${linkStyle}`}>Blog</Link>
       <Link to={'/contact'} className={`${linkStyle}`}>Contact</Link>
     </nav>
