@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="relative h-full pt-36 pb-20">
       <div className="dotted-bg absolute inset-0 z-[-1]" />
       <div className="w-4/5 mx-auto">
-        <h1 className="text-center font-[400] text-8xl leading-28 ">Inclusion Designed, and Accessibility by Research</h1>
+        <h1 className="text-center font-[400] text-8xl leading-28 ">Inclusive by Designed, and Accessibility by Research</h1>
       </div>
 
       <div className="flex justify-center items-center text-center mt-14 ">
