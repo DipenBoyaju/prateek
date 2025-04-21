@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="py-8 flex justify-between items-center">
-          <p className="uppercase text-[12px] text-white/40 font-ubuntu tracking-wider">© 2025 Prateek. All rights reserved.</p>
+          <p className="uppercase text-[12px] text-white/40 font-ubuntu tracking-wider">© 2025 <span className="text-secondary">Prateek</span>. All rights reserved.</p>
           <p className="text-white/30 font-geist text-sm cursor-pointer hover:text-secondary transition-colors ease-in-out duration-300" onClick={scrollTop}>Back to Top</p>
         </div>
       </div>
