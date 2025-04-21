@@ -1,26 +1,26 @@
 import { Plus } from 'lucide-react';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef } from 'react';
 
 const faqs = [
   {
-    question: 'What is React?',
-    answer: 'React is a JavaScript library for building user interfaces.',
+    question: 'What is the mission of Prateek AI?',
+    answer: "Prateek AI's mission is to become a global AI R&D hub focused on empowering differently abled and underserved communities. We combine deep interdisciplinary research, thoughtful engineering, and real-world innovation to build technologies that are inclusive, affordable, and impactful.",
   },
   {
-    question: 'What is a component in React?',
-    answer: 'A component is a reusable piece of UI. It can be a function or a class.',
+    question: 'Who does Prateek AI serve?',
+    answer: "We primarily serve differently abled individuals and underserved communities, especially those who have historically been overlooked by mainstream tech development. Our tools are designed to restore dignity, independence, and equal opportunity to people regardless of their physical or cognitive abilities.",
   },
   {
-    question: 'What is state in React?',
-    answer: 'State is a built-in object that stores property values that belong to a component.',
+    question: "What makes Prateek AI different from other AI labs or startups?",
+    answer: "We prioritize inclusion, accessibility, and real-world impact over hype and trends. Our Equitable Inclusive Technology Development Model (EITM) ensures that the technologies we build are affordable, durable, easy to use, and truly empower the users—especially those with disabilities.",
   },
   {
-    question: 'What is a prop in React?',
-    answer: 'Props are inputs to components. They are passed down from parent to child components.',
+    question: "What kind of technologies or research does Prateek AI focus on?",
+    answer: "We work on AI-driven tools for sign language translation, cognitive support, AI companionship, and more. Our research spans across disciplines to develop assistive technologies that are ethical, human-centered, and globally scalable.",
   },
   {
-    question: 'How do you handle events in React?',
-    answer: 'Events in React are handled using camelCase syntax and passing a function as the event handler.',
+    question: "Why is Prateek AI based in Nepal?",
+    answer: "Being based in Nepal allows us to stay grounded in the challenges of low-resource settings and design solutions that are practical and scalable. We believe powerful ideas can come from anywhere—and we're proud to prove that world-changing innovation can be born in the heart of Nepal.",
   },
 ];
 

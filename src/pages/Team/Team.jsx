@@ -1,4 +1,5 @@
 import Title from "../../components/Title"
+import Contributors from "./Contributors"
 import TeamCard from "./TeamCard"
 
 const teamList = [
@@ -48,6 +49,7 @@ const Team = () => {
           }
         </div>
       </div>
+      <Contributors />
     </div>
   )
 }

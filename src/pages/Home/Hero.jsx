@@ -33,7 +33,7 @@ const Hero = () => {
 
       <div className="flex justify-center mt-14">
         <div className=" w-fit border p-3 rounded-full">
-          <button className="bg-primary text-darkBlack rounded-full py-8 px-14 uppercase font-normal text-xl font-ubuntu flex items-center gap-3 border border-primary hover:bg-transparent cursor-pointer hover:text-primary transition-colors ease-in-out duration-500">Check Our Sign Language <FaRegHandPaper /></button>
+          <button className="bg-primary text-darkBlack rounded-full py-8 px-14 uppercase font-normal text-xl font-ubuntu flex items-center gap-3 border border-primary hover:bg-transparent cursor-pointer hover:text-primary transition-colors ease-in-out duration-500">Try Our Sign Language Demo<FaRegHandPaper /></button>
         </div>
       </div>
     </div>

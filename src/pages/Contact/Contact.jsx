@@ -1,6 +1,7 @@
 import { MdAlternateEmail, MdSupportAgent } from "react-icons/md"
 import Title from "../../components/Title"
 import ContactForm from "./ContactForm"
+import NewsLetter from "../../components/NewsLetter"
 
 const Contact = () => {
   return (
@@ -34,6 +35,7 @@ const Contact = () => {
             <ContactForm />
           </div>
         </div>
+        <NewsLetter />
       </div>
     </div>
   )
