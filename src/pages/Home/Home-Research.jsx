@@ -1,6 +1,6 @@
 import { TbArrowRightDashed } from "react-icons/tb"
 import Button from "../../components/shared/Button"
-import { Quote } from "lucide-react"
+import { Battery, Boxes, CircuitBoard, Cpu, Database, Gem, Link, Quote } from "lucide-react"
 
 const HomeResearch = () => {
   return (
@@ -36,6 +36,15 @@ const HomeResearch = () => {
             <div className="py-10">
               <Quote className="rotate-180 text-secondary" size={18} strokeWidth={1} />
               <p className="font-ubuntu text-2xl w-2/3 mt-8">To create a future where inclusion is designed, and accessibility is the norm not the exception.</p>
+              <div className="flex gap-3 mt-14">
+                <Cpu strokeWidth={1} className="text-cyan-400 animate-spin" />
+                <Battery strokeWidth={1} className="text-secondary animate-bounce" />
+                <CircuitBoard strokeWidth={1} className="text-yellow-300 animate-bounce" />
+                <Boxes strokeWidth={1} className="text-white/40 animate-pulse" />
+                <Database strokeWidth={1} className="text-orange-500 animate-bounce" />
+                <Gem strokeWidth={1} className="text-red-500 animate-bounce" />
+                <Link strokeWidth={1} className="text-pink-500 animate-spin" />
+              </div>
             </div>
           </div>
           <div className="col-span-6 py-6 pl-6">
