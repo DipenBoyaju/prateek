@@ -7,6 +7,12 @@ const Footer = () => {
 
   const linkStyle = 'hover:text-primary transition-all ease-in-out duration-500 group-hover:translate-x-5';
 
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   return (
     <div style={{ backgroundImage: 'url("./line-bg.png")', backgroundRepeat: 'no-repeat', backgroundPosition: 'top center', }}>
       <div className="container mx-auto">
@@ -73,7 +79,7 @@ const Footer = () => {
         </div>
         <div className="py-8 flex justify-between items-center">
           <p className="uppercase text-[12px] text-white/40 font-ubuntu tracking-wider">© 2025 Prateek. All rights reserved.</p>
-          <p className="text-white/30 font-geist text-sm">Back to Top</p>
+          <p className="text-white/30 font-geist text-sm cursor-pointer hover:text-secondary transition-colors ease-in-out duration-300" onClick={scrollTop}>Back to Top</p>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ const HomeResearch = () => {
   return (
     <div className="border-t border-b border-white/20">
       <div className="container mx-auto">
-        <div className="grid grid-cols-12">
+        <div className="grid grid-cols-11">
           <div className="col-span-5 border-r border-white/20">
             <div className="py-10 border-b border-white/20">
               <p className="text-[12px] font-geist uppercase tracking-wider text-secondary mb-10">Research</p>
@@ -34,8 +34,10 @@ const HomeResearch = () => {
             </div>
             <div className="py-10"></div>
           </div>
-          <div className="col-span-7 py-5 pl-5">
-            <div className="bg-zinc-950 w-full h-full"></div>
+          <div className="col-span-6 py-6 pl-6">
+            <div className=" w-full h-full">
+              <img src="/flow-bg.webp" alt="" />
+            </div>
           </div>
         </div>
 
