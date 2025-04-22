@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="">
-            <p className="">Prateek</p>
+            <p className="uppercase font-ubuntu font-semibold tracking-wider text-secondary text-lg">Prateek</p>
           </div>
           <div className="">
             <Navbar />
