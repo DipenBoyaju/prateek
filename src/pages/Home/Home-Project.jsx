@@ -46,7 +46,7 @@ const HomeProject = () => {
                 </div>
                 <div className="col-span-2">
                   <div className="bg-darkBlack w-full h-full">
-                    <h1 className="text-white/60 text-xs font-light p-2 font-ubuntu tracking-wider">
+                    <h1 className="text-white/60 text-xs font-light p-2 font-geist leading-5 tracking-wider">
                       {words.slice(0, visibleWords).join(" ")}
                     </h1>
                   </div>
