@@ -15,7 +15,7 @@ const Header = () => {
           <div className="">
             <p className="uppercase font-ubuntu font-semibold tracking-wider text-secondary text-lg">Prateek</p>
           </div>
-          <div
+          {/* <div
             className={`
     absolute md:relative top-15 md:top-0 z-50 w-full md:w-auto left-0
     transition-all duration-500 ease-in-out bg-darkBlack md:bg-transparent
@@ -25,7 +25,11 @@ const Header = () => {
     backdrop-blur-3xl
   `}
           >
-            <Navbar setShowMenu={setShowMenu} />
+            <Navbar onLinkClick={() => setShowMenu(false)} />
+          </div> */}
+
+          <div className="">
+            <Navbar />
           </div>
           <div className="hidden md:inline-block">
             <ul className="flex items gap-3 items-center border-[1px] border-white/20 rounded-full px-6 py-1 text-white/70">
