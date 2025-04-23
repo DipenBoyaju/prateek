@@ -4,9 +4,9 @@ import { Battery, Boxes, CircuitBoard, Cpu, Database, Gem, Link, Quote } from "l
 
 const HomeResearch = () => {
   return (
-    <div className="border-t border-b border-white/20">
+    <div className="border-t border-b border-white/20 px-4 md:px-0">
       <div className="container mx-auto">
-        <div className="grid grid-cols-11">
+        <div className="grid md:grid-cols-11">
           <div className="col-span-5 border-r border-white/20">
             <div className="py-10 border-b border-white/20">
               <p className="text-[12px] font-geist uppercase tracking-wider text-secondary mb-10">Research</p>
@@ -47,7 +47,7 @@ const HomeResearch = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-6 py-6 pl-6">
+          <div className="col-span-6 py-6 pl-6 hidden md:inline-block">
             <div className=" w-full h-full">
               <img src="/flow-bg.webp" alt="" />
             </div>
