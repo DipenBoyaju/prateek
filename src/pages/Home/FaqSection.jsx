@@ -33,15 +33,15 @@ const FAQSection = () => {
   };
 
   return (
-    <div className="py-30">
-      <div className="container mx-auto">
-        <div className="grid grid-cols-9">
+    <div className="md:py-30 py-20">
+      <div className="container mx-auto px-4 md:px-4">
+        <div className="grid md:grid-cols-9">
           <div className="col-span-4">
-            <h2 className='font-ubuntu text-6xl text-primary'>
+            <h2 className='font-ubuntu text-4xl md:text-6xl text-primary'>
               Your questions, answered.
             </h2>
           </div>
-          <div className="space-y-4 col-span-5">
+          <div className="space-y-4 col-span-5 mt-5 md:mt-0">
             {faqs.map((faq, index) => {
               const isOpen = openIndex === index;
 
