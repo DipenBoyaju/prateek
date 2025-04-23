@@ -15,13 +15,13 @@ const Footer = () => {
   };
   return (
     <div style={{ backgroundImage: 'url("./line-bg.png")', backgroundRepeat: 'no-repeat', backgroundPosition: 'top center', }}>
-      <div className="container mx-auto">
-        <div className="grid grid-cols-12 border-b border-white/10 py-24">
-          <div className="col-span-7">
+      <div className="container mx-auto px-4 md:px-0">
+        <div className="md:grid md:grid-cols-12 border-b border-white/10 py-14 md:py-24">
+          <div className="col-span-12 md:col-span-7">
             <p className="uppercase text-2xl font-bold font-ubuntu text-secondary">Prateek</p>
-            <p className="text-white/30 w-2/3 mt-8">Prateek AI is an AI R&D hub dedicated to empowering differently abled and underserved communities through inclusive, innovative and ethical AI solutions. </p>
+            <p className="text-white/30 md:w-2/3 mt-8">Prateek AI is an AI R&D hub dedicated to empowering differently abled and underserved communities through inclusive, innovative and ethical AI solutions. </p>
           </div>
-          <div className="col-span-5">
+          <div className="md:col-span-5 mt-8 md:mt-0">
             <div className="grid grid-cols-3">
               <div className="">
                 <h3 className=" text-white/40 font-geist tracking-wider text-sm uppercase font-medium">Projects</h3>
@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="py-8 flex justify-between items-center">
+        <div className="py-4 md:py-8 flex flex-col md:flex md:flex-row justify-between items-center">
           <p className="uppercase text-[12px] text-white/40 font-ubuntu tracking-wider">© 2025 <span className="text-secondary">Prateek</span>. All rights reserved.</p>
           <p className="text-white/30 font-geist text-sm cursor-pointer hover:text-secondary transition-colors ease-in-out duration-300" onClick={scrollTop}>Back to Top</p>
         </div>
