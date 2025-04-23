@@ -33,15 +33,15 @@ const Team = () => {
   return (
     <div>
       <Title tag="Team Members" title="Meet Our Team" />
-      <div className="container mx-auto py-20">
-        <div className="w-3/5 mx-auto">
-          <p className="text-center text-darkBlack text-3xl font-ubuntu leading-10">
+      <div className="container mx-auto py-20 px-4 md:px-0">
+        <div className="md:w-3/5 mx-auto">
+          <p className="text-center text-darkBlack text-2xl md:text-3xl font-ubuntu leading-8 md:leading-10">
             <span className="bg-secondary px-2 rounded">
               Meet the talented and passionate team members who drive our company forward every day.
             </span>
           </p>
         </div>
-        <div className="py-10 grid grid-cols-4 gap-6">
+        <div className="py-10 grid grid-cols-2 md:grid-cols-4 gap-6">
           {
             teamList.map((member) => (
               <TeamCard key={member.id} member={member} />

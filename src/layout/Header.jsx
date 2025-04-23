@@ -25,7 +25,7 @@ const Header = () => {
     backdrop-blur-3xl
   `}
           >
-            <Navbar />
+            <Navbar setShowMenu={setShowMenu} />
           </div>
           <div className="hidden md:inline-block">
             <ul className="flex items gap-3 items-center border-[1px] border-white/20 rounded-full px-6 py-1 text-white/70">

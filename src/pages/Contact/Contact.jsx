@@ -8,9 +8,9 @@ const Contact = () => {
     <div>
       <Title tag="Contact Us" title="We look forward to hearing from you." />
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 gap-10 py-20">
+        <div className="grid md:grid-cols-2 gap-10 py-20 px-4 md:px-0">
           <div className="">
-            <p className="font-ubuntu text-2xl font-light w-2/3">Please let us know if you have question, want to lave a comment, or would like further information about prateek.</p>
+            <p className="font-ubuntu text-xl md:text-2xl font-light md:w-2/3">Please let us know if you have question, want to lave a comment, or would like further information about prateek.</p>
             <div className="mt-10 space-y-5">
               <div className="border p-4 rounded-lg border-white/20 w-fit">
                 <div className="bg-zinc-900 p-2 w-fit rounded-lg text-primary">

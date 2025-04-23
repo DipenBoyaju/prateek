@@ -7,7 +7,7 @@ const Blog = () => {
       <Title tag={"Blog"} title="Latest Blogs" />
       <div className="py-20">
         <div className="container mx-auto">
-          <div className="grid grid-cols-3">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3">
             <BlogCard />
             <BlogCard />
             <BlogCard />

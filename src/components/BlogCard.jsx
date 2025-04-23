@@ -9,7 +9,7 @@ const BlogCard = () => {
         <p className="text-white/40">Apr 18, 2025</p>
       </div>
       <div className="w-full h-[200px] bg-zinc-800 my-10"></div>
-      <h2 className="text-4xl">Why Consistent Brand Identity is Key to Business Success</h2>
+      <h2 className="text-2xl md:text-4xl">Why Consistent Brand Identity is Key to Business Success</h2>
       <div className="mt-8 uppercase text-[12px] font-medium gap-10 tracking-wider text-white/80">
         <div className="grid grid-cols-4">
           <div className="col-span-3">
