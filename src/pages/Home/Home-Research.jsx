@@ -10,7 +10,7 @@ const HomeResearch = () => {
           <div className="col-span-5 border-r border-white/20">
             <div className="py-10 border-b border-white/20">
               <p className="text-[12px] font-geist uppercase tracking-wider text-secondary mb-10">Research</p>
-              <p className="text-2xl font-ubuntu w-2/3"><span className="uppercase font-bold text-primary text-3xl">Prateek</span> conduct deep, interdisciplinary research in AI and technology to explore new frontiers in physical, mental, and social support.</p>
+              <p className="text-2xl font-ubuntu md:w-2/3"><span className="uppercase font-bold text-primary text-3xl">Prateek</span> conduct deep, interdisciplinary research in AI and technology to explore new frontiers in physical, mental, and social support.</p>
 
               <div className="w-fit mt-8">
                 <div className="bg-primary p-4 rounded-full pl-6">
@@ -35,7 +35,7 @@ const HomeResearch = () => {
             </div>
             <div className="py-10">
               <Quote className="rotate-180 text-secondary" size={18} strokeWidth={1} />
-              <p className="font-ubuntu text-2xl w-2/3 mt-8">To create a future where inclusion is designed, and accessibility is the norm not the exception.</p>
+              <p className="font-ubuntu text-2xl md:w-2/3 mt-8">To create a future where inclusion is designed, and accessibility is the norm not the exception.</p>
               <div className="flex gap-3 mt-14">
                 <Cpu strokeWidth={1} className="text-cyan-400 animate-spin" />
                 <Battery strokeWidth={1} className="text-secondary animate-bounce" />
