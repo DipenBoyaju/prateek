@@ -7,8 +7,8 @@ const AboutUs = () => {
     <div className="py-20 px-4 md:px-0">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-12 gap-10">
-          <div className="md:col-span-5 hidden md:block">
-            <div className="bg-darkBlack w-full overflow-hidden relative h-[500px]">
+          <div className="md:col-span-5 order-2 md:order-1">
+            <div className="bg-darkBlack w-full overflow-hidden relative h-[400px] md:h-[500px]">
               <div className="">
                 <div className="absolute bg-secondary h-full w-full rounded-tl-[50%] rounded-br-[50%] left-0"></div>
                 {/* leftsife */}
@@ -37,9 +37,9 @@ const AboutUs = () => {
               <img src="/flow-bg.webp" alt="" className="w-full md:min-w-[700px] scale-150 md:object-top-left object-cover h-full" />
             </div>
           </div>
-          <div className="md:col-span-7">
+          <div className="md:col-span-7 order-1 md:order-2">
             <p className="text-[12px] font-geist uppercase tracking-wider text-secondary mb-10">About</p>
-            <p className="font-ubuntu text-2xl md:text-3xl font-light leading-10 mt-6 text-justify">Prateek AI is an AI R&D hub dedicated to empowering differently abled and underserved communities through inclusive, innovative and ethical AI solutions. With a focus on accessibility, inclusion, and real-world impact, we conduct deep interdisciplinary research and engineering in areas like sign language translation, cognitive support, and AI companionship, among many.</p>
+            <p className="font-ubuntu text-2xl md:text-3xl font-light leading-10 mt-6 text-justify md:text-left">Prateek AI is an AI R&D hub dedicated to empowering differently abled and underserved communities through inclusive, innovative and ethical AI solutions. With a focus on accessibility, inclusion, and real-world impact, we conduct deep interdisciplinary research and engineering in areas like sign language translation, cognitive support, and AI companionship, among many.</p>
             <div className="w-fit mt-12">
               <div className="bg-primary p-4 rounded-full pl-6">
                 <button className=" text-darkBlack font-medium uppercase text-base font-geist flex items-center cursor-pointer group w-fit overflow-hidden relative pr-10" onClick={() => nav('/about')}>
