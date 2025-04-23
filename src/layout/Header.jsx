@@ -18,7 +18,7 @@ const Header = () => {
           <div
             className={`
     absolute md:relative top-15 md:top-0 z-50 w-full md:w-auto left-0
-    transition-all duration-500 ease-in-out
+    transition-all duration-500 ease-in-out bg-darkBlack md:bg-transparent
     ${showMenu
                 ? 'opacity-100 translate-y-0 pointer-events-auto'
                 : 'opacity-0 md:opacity-100 md:translate-y-0 -translate-y-5 pointer-events-none'}
