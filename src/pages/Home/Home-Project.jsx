@@ -23,7 +23,7 @@ const HomeProject = () => {
   }, [visibleWords]);
 
   return (
-    <div className="py-20 relative">
+    <div className="py-20 relative px-4 md:px-0">
       <div className="dotted-bg absolute inset-0 z-[-1]" />
       <div className="container mx-auto">
         <div className="text-center">
@@ -31,7 +31,7 @@ const HomeProject = () => {
           <h3 className="font-ubuntu text-5xl mt-4">Explore Our Projects</h3>
         </div>
 
-        <div className="mt-16 grid grid-cols-3">
+        <div className="mt-16 grid md:grid-cols-3 w-full">
           <div className=""></div>
           <div className="w-full h-[500px] bg-zinc-800 p-2 rounded-xl">
             <div className="h-full border border-white/20 hover:border-white/50 cursor-pointer transition-colors ease-in-out duration-500 rounded-lg p-6 flex flex-col group">
