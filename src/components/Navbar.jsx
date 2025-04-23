@@ -15,7 +15,7 @@ const Navbar = () => {
 
       <div className="relative group uppercase">
         <button className={`${linkStyle}`}>Updates</button>
-        <div className="absolute top-4 left-0 hidden group-hover:flex flex-col bg-darkBlack rounded-md shadow-lg p-2 text-white/90 z-50 min-w-[150px] transition-all ease-in-out duration-500">
+        <div className="relative md:absolute top-4 left-0 hidden group-hover:flex flex-col bg-darkBlack rounded-md shadow-lg p-2 text-white/90 z-50 min-w-[150px] transition-all ease-in-out duration-500">
           <Link to="/blog" className="px-3 py-2 text-xs hover:text-primary transition-colors duration-200 hover:bg-zinc-800">Blog</Link>
           <Link to="/news" className="px-3 py-2 text-xs hover:text-primary transition-colors duration-200 hover:bg-zinc-800">News</Link>
         </div>
