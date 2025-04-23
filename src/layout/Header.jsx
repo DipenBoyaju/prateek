@@ -15,21 +15,11 @@ const Header = () => {
           <div className="">
             <p className="uppercase font-ubuntu font-semibold tracking-wider text-secondary text-lg">Prateek</p>
           </div>
-          {/* <div
-            className={`
-    absolute md:relative top-15 md:top-0 z-50 w-full md:w-auto left-0
-    transition-all duration-500 ease-in-out bg-darkBlack md:bg-transparent
-    ${showMenu
-                ? 'opacity-100 translate-y-0 pointer-events-auto'
-                : 'opacity-0 md:opacity-100 md:translate-y-0 -translate-y-5 pointer-events-none'}
-    backdrop-blur-3xl
-  `}
-          >
-            <Navbar onLinkClick={() => setShowMenu(false)} />
-          </div> */}
 
-          <div className="">
-            <Navbar />
+          <div className={`bg-darkBlack/90 fixed md:relative md:bg-transparent inset-x-0 top-14 md:top-0 backdrop-blur-3xl transition-all duration-500 ease-in-out  ${showMenu
+            ? 'opacity-100 translate-y-0 pointer-events-auto'
+            : 'opacity-0 md:opacity-100 md:translate-y-0 -translate-y-5 pointer-events-none md:pointer-events-auto'}`}>
+            <Navbar onLinkClick={() => setShowMenu(false)} />
           </div>
           <div className="hidden md:inline-block">
             <ul className="flex items gap-3 items-center border-[1px] border-white/20 rounded-full px-6 py-1 text-white/70">
