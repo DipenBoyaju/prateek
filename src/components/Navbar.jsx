@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const Navbar = () => {
   const linkStyle = `relative after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-27px] after:h-[1px] after:bg-primary/30 after:opacity-0 after:transition-opacity after:duration-500 hover:after:opacity-100 hover:text-primary transition-colors duration-300 ease-in-out uppercase cursor-pointer`
   return (
-    <nav className="font-geist text-[12px] text-white/80 uppercase font-semibold gap-10 md:gap-20 flex flex-col md:flex-row tracking-widest">
+    <nav className="font-geist text-[12px] text-white/80 uppercase font-semibold gap-10 md:gap-20 flex flex-col md:flex-row tracking-widest py-5 md:py-0 px-4 md:px-0">
       <Link to={'/'} className={`${linkStyle}`}
       >Home</Link>
       <Link to={'/about'} className={`${linkStyle}`}>About</Link>
