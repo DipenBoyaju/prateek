@@ -16,7 +16,7 @@ const Header = () => {
             <p className="uppercase font-ubuntu font-semibold tracking-wider text-secondary text-lg">Prateek</p>
           </div>
 
-          <div className={`bg-darkBlack/90 fixed md:relative md:bg-transparent inset-x-0 top-14 md:top-0 backdrop-blur-3xl transition-all duration-500 ease-in-out  ${showMenu
+          <div className={`bg-darkBlack/90 fixed md:relative md:bg-transparent inset-x-0 top-14 md:top-0 transition-all duration-500 ease-in-out  ${showMenu
             ? 'opacity-100 translate-y-0 pointer-events-auto'
             : 'opacity-0 md:opacity-100 md:translate-y-0 -translate-y-5 pointer-events-none md:pointer-events-auto'}`}>
             <Navbar onLinkClick={() => setShowMenu(false)} />
