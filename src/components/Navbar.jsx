@@ -14,7 +14,7 @@ const Navbar = ({ onLinkClick }) => {
       <Link to={'/'} onClick={handleClick} className={`${linkStyle}`}
       >Home</Link>
       <Link to={'/about'} onClick={handleClick} className={`${linkStyle}`}>About</Link>
-      <Link to={'/'} onClick={handleClick} className={`${linkStyle}`}>Research</Link>
+      <Link to={'/research'} onClick={handleClick} className={`${linkStyle}`}>Research</Link>
       <Link to={'/team'} onClick={handleClick} className={`${linkStyle}`}>Team</Link>
       <Link to={'/project'} onClick={handleClick} className={`${linkStyle}`}>Project</Link>
       <Link to={'/contact'} onClick={handleClick} className={`${linkStyle}`}>Contact</Link>

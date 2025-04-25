@@ -6,6 +6,7 @@ import Contact from "./pages/Contact/Contact"
 import Blog from "./pages/Blog/Blog"
 import Team from "./pages/Team/Team"
 import Project from "./pages/Project/Project"
+import Research from "./pages/Research/Research"
 
 const App = () => {
   const router = createBrowserRouter([
@@ -19,6 +20,7 @@ const App = () => {
         { path: '/blog', element: <Blog /> },
         { path: '/team', element: <Team /> },
         { path: '/project', element: <Project /> },
+        { path: '/research', element: <Research /> },
       ]
     }
   ])
