@@ -1,6 +1,6 @@
 import React from "react";
 
-const CoreValuesDiagram = () => {
+const CoreValues = () => {
   const items = [
     { id: 1, title: "Impact Over Hype", description: "We build AI to solve real problems, not chase trends.", circlePos: "top-6 left-1/2 -translate-x-1/2", linePos: "top-0 left-1/2 ", boxPos: "top-[-60px] left-1/2 -translate-x-1/2 bg-indigo-300/10 rounded-2xl" },
     { id: 2, title: "Built With, Not For", description: "We co-create with the disabled and elderly communities. Their voices guide our design.", circlePos: "top-1/4 left-10 -translate-y-1/2", linePos: "top-1/4 left-[-60px]", boxPos: "top-1/4 left-[100px] bg-blue-300/10 rounded-2xl" },
@@ -21,7 +21,7 @@ const CoreValuesDiagram = () => {
             <div className="relative bg-zinc-950 w-[300px] h-[400px] rounded-full flex items-center justify-center border-2 border-white/20">
 
               {/* Inner Core Values Circle */}
-              <div className="w-42 h-42 bg-darkBlack text-primary rounded-full flex items-center justify-center text-center p-4 text-lg font-semibold font-geist tracking-wider">
+              <div className="w-42 h-42 bg-secondary text-darkBlack rounded-full flex items-center justify-center text-center p-4 text-xl font-bold uppercase font-geist tracking-wider">
                 Core Values
               </div>
             </div>
@@ -80,4 +80,4 @@ const CoreValuesDiagram = () => {
   );
 };
 
-export default CoreValuesDiagram;
+export default CoreValues;
