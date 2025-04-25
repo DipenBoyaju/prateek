@@ -5,12 +5,14 @@ import Hero from "./Hero"
 import HomeProject from "./Home-Project"
 import HomeResearch from "./Home-Research"
 import NewsLetter from "../../components/NewsLetter"
+import CoreValuesDiagram from "./CoreValue"
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <AboutUs />
+      <CoreValuesDiagram />
       <HomeResearch />
       <HomeProject />
       <Articles />

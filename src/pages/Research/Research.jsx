@@ -1,3 +1,4 @@
+import NewsLetter from "../../components/NewsLetter"
 import Title from "../../components/Title"
 import ResearchCard from "./ResearchCard"
 
@@ -33,6 +34,7 @@ const Research = () => {
           }
         </div>
       </div>
+      <NewsLetter />
     </div>
   )
 }
