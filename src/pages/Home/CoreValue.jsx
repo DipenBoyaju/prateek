@@ -1,3 +1,4 @@
+import { Flame } from "lucide-react";
 import React from "react";
 
 const CoreValues = () => {
@@ -18,11 +19,12 @@ const CoreValues = () => {
           {/* Big Circle */}
           <div className="relative bg-zin-950 w-[400px] h-[500px] border-4 border-white/10 rounded-full flex items-center justify-center">
 
-            <div className="relative bg-zinc-950 w-[300px] h-[400px] rounded-full flex items-center justify-center border-2 border-white/20">
+            <div className="relative bg-zinc-950  w-[300px] h-[400px] rounded-full flex items-center justify-center border-2 border-white/20">
 
               {/* Inner Core Values Circle */}
-              <div className="w-42 h-42 bg-secondary text-darkBlack rounded-full flex items-center justify-center text-center p-4 text-xl font-bold uppercase font-geist tracking-wider">
-                Core Values
+              <div className="w-42 h-42 bg-secondary border-4 border-white/50 text-darkBlack rounded-full flex items-center justify-center text-center p-4 text-xl font-bold uppercase font-geist tracking-wider ">
+                <div className="z-20">Core Values</div>
+                <Flame strokeWidth={0.5} className="absolute text-white" size={100} />
               </div>
             </div>
 

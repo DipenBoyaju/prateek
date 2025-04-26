@@ -6,6 +6,7 @@ import HomeProject from "./Home-Project"
 import HomeResearch from "./Home-Research"
 import NewsLetter from "../../components/NewsLetter"
 import CoreValues from "./CoreValue"
+import VideoPlayer from "./VideoPlayer"
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <AboutUs />
       <CoreValues />
       <HomeResearch />
+      <VideoPlayer />
       <HomeProject />
       <Articles />
       <FAQSection />
