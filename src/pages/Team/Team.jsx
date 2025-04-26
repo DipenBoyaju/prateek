@@ -1,3 +1,4 @@
+import NewsLetter from "../../components/NewsLetter"
 import Title from "../../components/Title"
 import Contributors from "./Contributors"
 import TeamCard from "./TeamCard"
@@ -50,6 +51,7 @@ const Team = () => {
         </div>
       </div>
       <Contributors />
+      <NewsLetter />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import { TbArrowRightDashed } from "react-icons/tb"
 import Title from "../../components/Title"
 import { useNavigate } from "react-router-dom"
+import NewsLetter from "../../components/NewsLetter"
 
 const Project = () => {
   const nav = useNavigate()
@@ -42,6 +43,7 @@ const Project = () => {
           </div>
         </div>
       </div>
+      <NewsLetter />
     </div>
   )
 }

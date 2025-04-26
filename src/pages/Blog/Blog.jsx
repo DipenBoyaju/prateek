@@ -1,4 +1,5 @@
 import BlogCard from "../../components/BlogCard"
+import NewsLetter from "../../components/NewsLetter"
 import Title from "../../components/Title"
 
 const Blog = () => {
@@ -14,6 +15,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
+      <NewsLetter />
     </div>
   )
 }
