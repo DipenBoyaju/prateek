@@ -11,7 +11,7 @@ const About = () => {
         <div className="py-20 px-4 md:px-0">
           <p className="font-ubuntu tracking-wider text-primary text-xl">Prateek AI is an AI R&D hub dedicated to empowering differently abled and underserved communities through inclusive, innovative and ethical AI solutions. With a focus on accessibility, inclusion, and real-world impact, we conduct deep interdisciplinary research and engineering in areas like sign language translation, cognitive support, and AI companionship, among many. Rooted in Nepal, we aim to create technologies that are accessible, affordable, and built with empathy, ensuring that every person, regardless of ability, has the tools to live with dignity and independence.</p>
         </div>
-        <div className="py-20 px-2 md:px-0">
+        <div className="py-10 md:py-20 px-2 md:px-0">
           <MissionVision />
         </div>
         <div className="py-20 px-4 md:px-0">
