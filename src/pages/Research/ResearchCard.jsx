@@ -11,7 +11,7 @@ const ResearchCard = ({ item }) => {
           <MoveUpRight strokeWidth={1} className="" size={20} />
         </div>
       </div>
-      <div className="w-full bg-zinc-800 h-[50vh]"></div>
+      <div className="w-full bg-zinc-800 h-[35vh] md:h-[50vh]"></div>
       <div className="">
         <h2 className="text-2xl font-geist font-semibold text-primary tracking-wide leading-8">{item.title}</h2>
         <p className="font-ubuntu text-base text-primary/40 pt-3">{item.description}</p>

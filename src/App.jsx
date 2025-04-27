@@ -8,6 +8,7 @@ import Team from "./pages/Team/Team"
 import Project from "./pages/Project/Project"
 import Research from "./pages/Research/Research"
 import SignLanguage from "./pages/SignLanguage/SignLanguage"
+import News from "./pages/News/News"
 
 const App = () => {
   const router = createBrowserRouter([
@@ -23,6 +24,7 @@ const App = () => {
         { path: '/project', element: <Project /> },
         { path: '/research', element: <Research /> },
         { path: '/signlanguage', element: <SignLanguage /> },
+        { path: '/news', element: <News /> },
       ]
     }
   ])
