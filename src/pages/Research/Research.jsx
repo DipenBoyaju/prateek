@@ -24,7 +24,7 @@ const Research = () => {
     <div className="relative">
       <Title tag={"Research"} title="Research Wing" />
       <div className="container mx-auto py-20">
-        <div className="grid grid-cols-3 border border-white/10">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 border border-white/10">
           {
             researchList.map((item, index) => (
               <div className={index === 1 ? "border-x border-white/10" : ""} key={item.id}>

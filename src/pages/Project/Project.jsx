@@ -9,7 +9,7 @@ const Project = () => {
     <div>
       <Title tag={"Project"} title="Our Projects" />
       <div className="container mx-auto py-20">
-        <div className="grid grid-cols-10 gap-10">
+        <div className="grid sm:grid-cols-10 gap-10">
           <div className="col-span-6 w-full h-[60vh] border border-white/10 p-4">
             <div className="bg-zinc-900 w-full h-full grid grid-cols-6">
               <div className="col-span-4 border-r border-white/10"></div>

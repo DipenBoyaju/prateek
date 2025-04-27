@@ -12,9 +12,29 @@ const CoreValues = () => {
   ];
 
   return (
-    <div className="py-38 relative bg">
+    <div className="py-10 md:py-38 relative bg">
       <div className="dotted-bg absolute inset-0 z-[-1]" />
-      <div className="container mx-auto">
+      {/* //small screen */}
+      <div className="container mx-auto px-4 md:px-0 md:hidden">
+        <p className="text-[12px] font-geist uppercase tracking-wider text-secondary mb-10">Values</p>
+        <h2 className="text-3xl font-ubuntu text-primary">Core Values</h2>
+        <div className="grid pt-4 gap-4">
+          {
+            items.map((item, index) => (
+              <div className="p-3 border border-white/10 rounded-lg space-y-4">
+                <div className="flex items-center gap-3">
+                  <p className="font-geist text-xs border border-white/10 text-white/20 rounded-full py-1 px-4">0{index + 1}</p>
+                  <h4 className="font-geist tracking-wide font-semibold text-primary">{item.title}</h4>
+                </div>
+                <p className="font-ubuntu text-sm text-white/30">{item.description}</p>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
+      {/* largescreen */}
+      <div className="container mx-auto hidden md:block">
         <div className="relative min-h-screen flex items-center justify-center text-white  p-10">
           {/* Big Circle */}
           <div className="relative bg-zin-950 w-[400px] h-[500px] border-4 border-white/10 rounded-full flex items-center justify-center">
