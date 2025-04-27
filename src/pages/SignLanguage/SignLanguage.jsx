@@ -3,7 +3,7 @@ import SignDetection from "./SignDetection"
 const SignLanguage = () => {
   return (
     <div className="py-20">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4 md:px-0">
         <div className="">
           <h2 className="pt-5 font-ubuntu tracking-wider text-3xl font-semibold text-primary">How it works</h2>
         </div>
@@ -24,7 +24,7 @@ const SignLanguage = () => {
       </div>
       <div className="py-10 relative">
         <div className="dotted-bg absolute inset-0 z-[-1]" />
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <SignDetection />
         </div>
       </div>
