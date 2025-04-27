@@ -28,7 +28,7 @@ const Footer = () => {
                 <ul className="mt-3 uppercase font-[400] font-ubuntu text-primary/70 text-sm space-y-3">
                   <li className="flex gap-1 items-center group">
                     <TiArrowRight className={`${arrowStyle}`} />
-                    <Link to={'/'} className={`${linkStyle}`}>Sign Language</Link>
+                    <Link to={'/signlanguage'} className={`${linkStyle}`}>Sign Language</Link>
                   </li>
                 </ul>
               </div>
@@ -41,23 +41,23 @@ const Footer = () => {
                   </li>
                   <li className="flex gap-1 items-center group">
                     <TiArrowRight className={`${arrowStyle}`} />
-                    <Link to={'/about'} className={`${linkStyle}`}>Research</Link>
+                    <Link to={'/research'} className={`${linkStyle}`}>Research</Link>
                   </li>
                   <li className="flex gap-1 items-center group">
                     <TiArrowRight className={`${arrowStyle}`} />
-                    <Link to={'/about'} className={`${linkStyle}`}>Team</Link>
+                    <Link to={'/team'} className={`${linkStyle}`}>Team</Link>
                   </li>
                   <li className="flex gap-1 items-center group">
                     <TiArrowRight className={`${arrowStyle}`} />
-                    <Link to={'/about'} className={`${linkStyle}`}>Project</Link>
+                    <Link to={'/project'} className={`${linkStyle}`}>Project</Link>
                   </li>
                   <li className="flex gap-1 items-center group">
                     <TiArrowRight className={`${arrowStyle}`} />
-                    <Link to={'/about'} className={`${linkStyle}`}>Blog</Link>
+                    <Link to={'/blog'} className={`${linkStyle}`}>Blog</Link>
                   </li>
                   <li className="flex gap-1 items-center group">
                     <TiArrowRight className={`${arrowStyle}`} />
-                    <Link to={'/about'} className={`${linkStyle}`}>Contact</Link>
+                    <Link to={'/contact'} className={`${linkStyle}`}>Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -66,11 +66,11 @@ const Footer = () => {
                 <ul className="mt-3 uppercase font-[400] font-ubuntu text-primary/70 text-sm space-y-3">
                   <li className="flex gap-1 items-center group">
                     <TiArrowRight className={`${arrowStyle}`} />
-                    <Link to={'/about'} className={`${linkStyle}`}>Privacy Policy</Link>
+                    <Link to={'/'} className={`${linkStyle}`}>Privacy Policy</Link>
                   </li>
                   <li className="flex gap-1 items-center group">
                     <TiArrowRight className={`${arrowStyle}`} />
-                    <Link to={'/about'} className={`${linkStyle}`}>Terms</Link>
+                    <Link to={'/'} className={`${linkStyle}`}>Terms</Link>
                   </li>
                 </ul>
               </div>
