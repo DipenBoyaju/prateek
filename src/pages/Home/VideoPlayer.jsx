@@ -1,6 +1,6 @@
 const VideoPlayer = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 px-4 md:px-0">
       <div className="container mx-auto">
         <div className="max-w-5xl mx-auto w-full h-full flex justify-center items-center">
           <div className="w-full aspect-video rounded-3xl overflow-hidden">

@@ -2,7 +2,7 @@ import { MoveUpRight } from "lucide-react"
 
 const ResearchCard = ({ item }) => {
   return (
-    <div className="p-10 flex flex-col gap-20 hover:bg-zinc-900/40 h-full group cursor-pointer">
+    <div className="p-5 md:p-10 flex flex-col gap-8 md:gap-20 hover:bg-zinc-900/40 h-full group cursor-pointer">
       <div className="flex items-center justify-between">
         <div className="border border-white/30 py-1 px-4 w-fit rounded-full">
           <p className="text-sm font-geist text-primary/30 tracking-wider">00{item.id}</p>
